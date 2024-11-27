@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌊 SurfVision - Serviço Online de Visualização de Praias
 
-## Getting Started
+SurfVision é um serviço que permite aos usuários acessar vídeos e descrições atualizadas sobre as condições das praias. O sistema organiza informações de maneira colaborativa, com diferentes níveis de permissões para os usuários.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Funcionalidades Principais
+- **Visualização:** Veja vídeos e descrições atualizados das praias.
+- **Edição e Adição de Informações:** Usuários autorizados podem adicionar novas praias ou atualizar as informações existentes.
+- **Gestão de Permissões:** Controle de acesso com três tipos de usuários, garantindo segurança e eficiência.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠️ Tipos de Usuários
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. **Usuários Administradores**  
+   - **Permissões:** Podem adicionar novas praias e editar qualquer informação dos locais.  
+   - **Exemplo de Ações:**  
+     - Criar novas entradas para praias.
+     - Atualizar vídeos, descrições e dados gerais.
 
-## Learn More
+2. **Usuários Editores**  
+   - **Permissões:** Podem apenas editar as informações existentes, mas não podem adicionar novas praias.  
+   - **Exemplo de Ações:**  
+     - Alterar descrições e atualizar vídeos.
 
-To learn more about Next.js, take a look at the following resources:
+3. **Usuários Visualizadores**  
+   - **Permissões:** Podem apenas visualizar os vídeos e descrições das praias.  
+   - **Exemplo de Ações:**  
+     - Navegar pelas praias.
+     - Assistir a vídeos e ler descrições.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📄 Como Usar
 
-## Deploy on Vercel
+### 1. **Acessar o Serviço**
+   - Visite [beachview.com](https://beachview.com) (link fictício).
+   - Cadastre-se para acessar funcionalidades específicas dependendo de seu perfil.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 2. **Adicionar/Editar Informações (Administradores e Editores)**
+   - Navegue até a aba **Gestão de Praias**.
+   - Utilize o painel para:
+     - **Adicionar:** Preencha o formulário com o nome da praia, descrição e carregue o vídeo mais recente.
+     - **Editar:** Atualize as informações existentes diretamente na listagem.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### 3. **Visualizar Conteúdo (Todos os Usuários)**
+   - Explore a listagem de praias na página inicial.
+   - Clique em uma praia para assistir ao vídeo e ver informações detalhadas.
+
+---
+
+## 📂 Organização do Repositório
+- `/surfvision/app/page.tsx`: Código-fonte da aplicação.
