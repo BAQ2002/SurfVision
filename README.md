@@ -32,23 +32,5 @@ SurfVision é um serviço que permite aos usuários acessar vídeos e descriçõ
 
 ---
 
-## 📄 Como Usar
-
-### 1. **Acessar o Serviço**
-   - Visite [beachview.com](https://beachview.com) (link fictício).
-   - Cadastre-se para acessar funcionalidades específicas dependendo de seu perfil.
-
-### 2. **Adicionar/Editar Informações (Administradores e Editores)**
-   - Navegue até a aba **Gestão de Praias**.
-   - Utilize o painel para:
-     - **Adicionar:** Preencha o formulário com o nome da praia, descrição e carregue o vídeo mais recente.
-     - **Editar:** Atualize as informações existentes diretamente na listagem.
-
-### 3. **Visualizar Conteúdo (Todos os Usuários)**
-   - Explore a listagem de praias na página inicial.
-   - Clique em uma praia para assistir ao vídeo e ver informações detalhadas.
-
----
-
 ## 📂 Organização do Repositório
 - `/surfvision/app/page.tsx`: Código-fonte da aplicação.
